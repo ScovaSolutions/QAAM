@@ -75,8 +75,12 @@ WSGI_APPLICATION = 'qaam.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'scova-solutions:asia-south1:qaam',
+        'USER': 'postgres',
+        'PASSWORD': 'gM0szfvpmItBjIkD',
+        'HOST': '34.93.89.200',
+        'PORT': '5432',
     }
 }
 
